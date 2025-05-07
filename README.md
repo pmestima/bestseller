@@ -16,9 +16,10 @@ http://localhost:8080/swagger-ui/index.html
 ### Assumptions:
 
 - Admins can only get a list of all Toppings sorted by number of orders (no other action is allowed)
-- "Current amount of the cart and products should be communicated back to the caller" I don't understand when this information
-  should be communicated back to the client, therefore I did it as response to make an order
+- "Current amount of the cart and products should be communicated back to the caller" I didn't understand when this information
+  should be communicated back to the client, therefore I did it as response to add a product to the cart
 - I didn't create a method to edit/delete drinks from your cart
+- There's no requirement regarding finalizing the order, so I am returning the total price and discount at that stage
 
 ### My decisions
 
